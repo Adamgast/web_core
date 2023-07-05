@@ -236,7 +236,7 @@ h6 {
 	left: -15px;
 	width: 4px;
 	height: 40px;
-	background: url("/img/about/line.svg") 0 0 no-repeat;
+	background: url("../img/about/line.svg") 0 0 no-repeat;
 }
 .about__actions {
 	display: none;
@@ -296,7 +296,7 @@ h6 {
 	height: 25px;
 	top: 0;
 	left: 0;
-	background: url("/img/about/expand.svg") 0 0 no-repeat;
+	background: url("../img/about/expand.svg") 0 0 no-repeat;
 }
 .about__image {
 	margin: 0 -15px;
