@@ -242,6 +242,7 @@ h6 {
 	display: none;
 }
 .about__action {
+	transition: color 0.3s ease 0s;
 }
 .about__nav {
 }
@@ -260,6 +261,7 @@ h6 {
 	color: #7e7e82;
 	display: inline-block;
 	padding: 8px 13px;
+	transition: color 0.3s ease 0s;
 }
 .about__link.active {
 	border-radius: 6px;
@@ -288,6 +290,7 @@ h6 {
 	letter-spacing: -0.2px;
 	position: relative;
 	padding-left: 30px;
+	transition: color 0.3s ease 0s;
 }
 .about__read-more::before {
 	content: "";
@@ -304,6 +307,18 @@ h6 {
 .about__image img {
 	width: 100%;
 	border-radius: 5px;
+}
+
+@media (any-hover: hover) {
+	.about__action:hover {
+		color: #ff3e79;
+	}
+	.about__link:hover {
+		color: #0da09b;
+	}
+	.about__read-more:hover {
+		color: #0da09b;
+	}
 }
 
 @media (min-width: 767.98px) {
